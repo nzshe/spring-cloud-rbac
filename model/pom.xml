@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.9.RELEASE</version>
+		<version>2.0.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -70,29 +70,29 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
+<!-- 	<distributionManagement> -->
 
-		<repository>
+<!-- 		<repository> -->
 
-			<id>user-releases</id>
+<!-- 			<id>user-releases</id> -->
 
-			<name>user-releases</name>
+<!-- 			<name>user-releases</name> -->
 
-			<url>http://10.6.71.235:8081/repository/maven-releases/</url>
+<!-- 			<url>http://10.6.71.235:8081/repository/maven-releases/</url> -->
 
-		</repository>
+<!-- 		</repository> -->
 
-		<snapshotRepository>
+<!-- 		<snapshotRepository> -->
 
-			<id>user-snapshots</id>
+<!-- 			<id>user-snapshots</id> -->
 
-			<name>user-snapshots</name>
+<!-- 			<name>user-snapshots</name> -->
 
-			<url>http://10.6.71.235:8081/repository/maven-snapshots/</url>
+<!-- 			<url>http://10.6.71.235:8081/repository/maven-snapshots/</url> -->
 
-		</snapshotRepository>
+<!-- 		</snapshotRepository> -->
 
-	</distributionManagement>
+<!-- 	</distributionManagement> -->
 
 	<build>
 		<plugins>
