@@ -1,6 +1,5 @@
 package com.rbac.rbacshow.common.config.mybatis;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 
 /*
@@ -9,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 * @create 2018/02/25 0025
 */
 @Configuration
-@MapperScan("com.rbac.rbacshow.*.dao")
 public class MyBatisConfig {
 
 }

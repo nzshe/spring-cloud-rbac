@@ -8,7 +8,7 @@ import org.mapstruct.factory.Mappers;
 /**
  * Created by Administrator on 2018/2/2 0002.
  */
-@Mapper(componentModel = "spring")
+@Mapper
 public interface UserMapper {
 
     @Mapping(source = "id", target = "id")

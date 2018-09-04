@@ -4,8 +4,10 @@ import com.base.util.redis.RedisCache;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.rbac.rbacshow.*.dao","com.rbac.rbacshow.sys.mapper.UserMapper"})
 public class RbacShowApplication {
 
 	public static void main(String[] args) {
